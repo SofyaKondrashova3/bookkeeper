@@ -12,15 +12,15 @@ class AddExpensesWidget(QtWidgets.QWidget):
         self.setLayout(layout)
 
         layout.addWidget(QtWidgets.QLabel("Стоимость"), 0, 0,
-                        alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
+                         alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(QtWidgets.QLabel("Название объкта"), 1, 0,
-                        alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
+                         alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(QtWidgets.QLabel("Категория объекта"), 2, 0,
-                        alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
+                         alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(QtWidgets.QLabel("Дата покупки"), 3, 0,
-                        alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
+                         alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(QtWidgets.QLabel("Новая категория"), 5, 0,
-                        alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
+                         alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
 
         self.edit_box = QtWidgets.QLineEdit()
         layout.addWidget(self.edit_box, 0, 1, 1, 3)
